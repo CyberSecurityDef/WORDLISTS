@@ -4362,6 +4362,8 @@ utilisateurs
 utilizzatore
 vot_utente_e
 xprognostico
+showflagforme
+yesIwantaflag
 administrator
 adminpassword
 adminusername
