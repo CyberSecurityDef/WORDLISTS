@@ -37,8 +37,6 @@ X
 Y
 Z
 [
-]
-_
 a
 b
 c
@@ -10677,7 +10675,7 @@ pisces
 pixels
 pjb_ui
 places
-plain]
+plain
 planet
 plants
 plates
@@ -10787,7 +10785,7 @@ quebec
 queens
 queryn
 queues
-quote]
+quote
 quotes
 qwaszx
 qwerty
@@ -25976,7 +25974,7 @@ customerid
 customized
 customtags
 cuteeditor
-cvvnumber]
+cvvnumber
 cybersched
 cybershell
 cyberworld
@@ -40642,7 +40640,7 @@ responsive_filemanager-9.9.7
 shor7cut shell (beta killer)
 .well-known/openid-federation
 ajaxplorer-core-2.5.4-rc-dist
-h4ntu shell [powered by tsoi]
+h4ntu shell [powered by tsoi
 phpmyadmin-RELEASE_2_11_11RC1
 phpmyadmin-RELEASE_3_0_0ALPHA
 phpmyadmin-RELEASE_3_1_0BETA1
@@ -40973,7 +40971,7 @@ pinoy lulzsec (private shell 2017)
 Ayyildiz Tim  -AYT- Shell v 2.1 Biz
 SimShell 1.0 - Simorgh Security MGZ
 ayyildiz tim  -ayt- shell v 2.1 biz
-c0derz shell [csh] v. 0.1.1 release
+c0derz shell [csh v. 0.1.1 release
 mod_donimedia_select_box_menu_type1
 simshell 1.0 - simorgh security mgz
 Moroccan Spamers Ma-EditioN By GhOsT
