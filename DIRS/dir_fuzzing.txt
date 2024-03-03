@@ -8764,6 +8764,8 @@ change-style
 change-tracker
 change4life
 change_area
+change_grades
+change_grades_old
 change_password
 changed
 changelog
@@ -24312,6 +24314,7 @@ php_include
 php_includes
 php_lib
 php_paypal
+php_portal
 php_scripts
 php_speedy
 php_test
