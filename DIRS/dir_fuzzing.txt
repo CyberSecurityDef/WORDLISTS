@@ -26601,8 +26601,6 @@ rename
 rencontre
 rencontres
 render
-render/https://www.google.com
-render?url=https://www.google.com
 rendered
 renderhandlers
 rendering
