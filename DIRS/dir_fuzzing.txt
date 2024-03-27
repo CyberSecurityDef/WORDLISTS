@@ -1,4 +1,3 @@
-VipWebArmy
 !
 !_archives
 !_images
@@ -980,7 +979,6 @@ ADM
 ADMIN
 ADMON
 AK-74
-AK-74 Security Team Web Shell Beta Version
 ALGOLIA_API_KEY
 AMAZON_AWS_ACCESS_KEY_ID
 AMAZON_AWS_SECRET_ACCESS_KEY
@@ -1034,9 +1032,6 @@ AppsLocalLogin
 AppsLogin
 Archive
 Articles
-Ayyildiz Tim  -AYT- Shell v 2.1 Biz
-Ayyildiz Tim -AYT- Shell v 2.1 Biz
-Ayyildiz Tim Shell (Private Shell 2017)
 Ayyildiz_Tim
 B
 BITTREX_API_KEY
@@ -1049,7 +1044,7 @@ Books
 Browser
 Business
 C
-C99madShell v. 2.0 madnet edition
+C99madShell
 CF_PASSWORD
 CF_USERNAME
 CIRCLE_TOKEN
@@ -1079,7 +1074,7 @@ CasuS-1.5
 Casus15
 ChangeLog
 Computers
-Con7ext-Shell-V.2-l o l
+Con7ext-Shell-V.2-l
 ConsumerKey
 ConsumerSecret
 Contact
@@ -1088,8 +1083,7 @@ Content
 Creatives
 Crystal
 CrystalShell
-CrystalShell v.1
-Cyber Shell (v 1.0)
+Cyber
 D
 DB
 DB_USERNAME
@@ -1105,7 +1099,6 @@ DTool_Pro
 Database_Administration
 Default
 Demo
-Dive Shell 1.0 - Emperor Hacking Team
 Dive_Shell
 Documents
 Documents and Settings
@@ -1117,7 +1110,7 @@ E
 EFSO
 Education
 Ekin0x
-Engineers Security (Private PHP Shell 2017)
+Engineers
 English
 Entertainment
 Entries
@@ -1208,7 +1201,6 @@ GH_TOKEN
 GITLAB_USER_LOGIN
 GOOGLE_API_KEY
 GOOGLE_APPLICATION_CREDENTIALS
-GRP WebShell 2.0 release build 2018 (C)2006,Great
 GRP_WebShell
 Games
 Gamma Web Shell
@@ -1240,7 +1232,7 @@ JspWebshell_1.2
 K
 KA_uShell
 KA_uShell_0.1.6
-KAdot Universal Shell v0.1.6
+KAdot
 K[1]LLeR
 L
 LICENSE
@@ -1248,7 +1240,7 @@ LOTFREE
 Legal
 Links
 Linux
-Liz0ziM Private Safe Mode Command Execuriton Bypass Exploit
+Liz0ziM
 Loaderz WEB Shell
 Loaderz_WEB_Shell
 Locus7s
@@ -1531,19 +1523,17 @@ VAULT_TOKEN
 VULTR_ACCESS
 VULTR_SECRET
 Video
-W
-W3SVC
+VipWebArmy
 W3SVC1
 W3SVC2
 W3SVC3
 WEB-INF
-WHO AM I - MZRP105 (Private PHP Shell)
 WS_FTP
 WebAdmin
 WinX Shell
 WinX_Shell
 Windows
-Wordpress Mass Defacer (FUD 2017)
+Wordpress
 Worse Linux Shell
 Worse_Linux_Shell
 X
@@ -31168,6 +31158,7 @@ vip
 viper
 viper-download
 viper1
+vipwebarmy
 viral
 virgin
 virginia
