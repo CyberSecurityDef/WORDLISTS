@@ -78,6 +78,7 @@
 .test
 .tgz
 .tmp
+.temp
 .txt
 .war
 .xls
@@ -86,5 +87,3 @@
 .png
 .jpg
 .jpeg
-.tmp
-.temp
