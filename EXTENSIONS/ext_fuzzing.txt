@@ -86,3 +86,5 @@
 .png
 .jpg
 .jpeg
+.tmp
+.temp
