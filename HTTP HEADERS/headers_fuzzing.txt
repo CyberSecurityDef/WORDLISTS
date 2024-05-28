@@ -16,6 +16,7 @@ Content-Location
 Content-MD5
 Content-Range
 Content-Type
+Cookie
 Date
 ETag
 Expect
@@ -31,6 +32,7 @@ Last-Modified
 Location
 Max-Forwards
 MIME-Version
+Priority
 Pragma
 Proxy-Authenticate
 Proxy-Authorization
@@ -44,6 +46,7 @@ TE
 Trailer
 Transfer-Encoding
 Upgrade
+Upgrade-Insecure-Requests
 User-Agent
 Vary
 Via
