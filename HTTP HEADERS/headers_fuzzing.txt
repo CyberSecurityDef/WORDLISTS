@@ -33,6 +33,7 @@ Last-Modified
 Location
 Max-Forwards
 MIME-Version
+MyHeader
 Priority
 Pragma
 Proxy-Authenticate
