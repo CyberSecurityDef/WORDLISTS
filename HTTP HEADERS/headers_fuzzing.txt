@@ -28,6 +28,7 @@ If-Modified-Since
 If-None-Match
 If-Range
 If-Unmodified-Since
+Keep-Alive
 Last-Modified
 Location
 Max-Forwards
@@ -52,3 +53,4 @@ Vary
 Via
 Warning
 WWW-Authenticate
+X-Powered-By
