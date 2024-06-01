@@ -1714,6 +1714,7 @@ fullsite
 fulltext
 func
 funcs
+fun
 function
 function_id
 functionid
