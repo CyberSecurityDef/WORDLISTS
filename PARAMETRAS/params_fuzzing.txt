@@ -105,6 +105,7 @@ PHPSESSID
 PRIVILEGES
 PaRes
 Page
+pageview
 ParentID
 Password
 PayerID
