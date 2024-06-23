@@ -1,0 +1,7 @@
+.backup
+.bak
+.bakup
+.back
+.$$$
+.$db
+.bak~
