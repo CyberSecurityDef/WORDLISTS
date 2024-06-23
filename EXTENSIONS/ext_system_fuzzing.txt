@@ -13,4 +13,5 @@
 .reg
 .so
 .sys
+.swap
 .tmp
