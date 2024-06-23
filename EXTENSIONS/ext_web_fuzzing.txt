@@ -34,7 +34,6 @@
 .shtml
 .stackdump
 .swf
-.swp
 .temp
 .tmp
 .xhtml
