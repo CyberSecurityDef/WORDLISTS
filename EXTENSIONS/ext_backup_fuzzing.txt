@@ -3,8 +3,15 @@
 .back
 .backup
 .bak
+.bak.php
 .bakup
 .bak~
+.old.jsp
+.old.php
+.php.bak
+.php.old
+.php.swp
+.php~
 .swap
 .swp
 .tmp

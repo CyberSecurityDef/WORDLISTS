@@ -11,6 +11,7 @@
 .htm
 .html
 .inc
+.inc.php
 .jhtml
 .js
 .jsa
@@ -32,7 +33,6 @@
 .py
 .rss
 .shtml
-.stackdump
 .swf
 .temp
 .tmp
