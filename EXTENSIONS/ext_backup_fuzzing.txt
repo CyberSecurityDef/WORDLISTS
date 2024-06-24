@@ -1,5 +1,4 @@
 .$$$
-.$db
 .back
 .backup
 .bak
