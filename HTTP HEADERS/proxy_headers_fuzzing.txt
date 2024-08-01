@@ -36,12 +36,13 @@ Via:
 WL-Proxy-Client-IP:
 X-Backend-Host:
 X-BlueCoat-Via:
+X-Forwarded-Protocol:
 X-Cache-Info:
 X-Forward-For:
 X-Forwarded-By:
 X-Forwarded-For-Original:
 X-Forwarded-For:
-X-Forwarded-For:,,
+X-Forwarded-Proto:
 X-Forwarded-Server:
 X-Forwarded:
 X-Forwared-Host:
@@ -64,6 +65,7 @@ X-Real-IP:
 X-Remote-Addr:
 X-Remote-IP:
 X-True-Client-IP:
+X-Wap-Profile:
 XPROXY:
 XROXY_CONNECTION:
 X_CLUSTER_CLIENT_IP:
