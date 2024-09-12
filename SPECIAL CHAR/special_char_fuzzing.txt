@@ -2173,3 +2173,15 @@ z
 울란바토르
 찦차를타고온펲시맨과쑛다리똠방각하
 𠜎𠜱𠝹𠱓𠱸𠲖𠳏
+null
+NULL
+none
+None
+nil
+Nil
+NaN
+-NaN
+Infinity
+-Infinity
+inf
+-inf
