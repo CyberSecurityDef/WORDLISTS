@@ -31,6 +31,8 @@ $$$$$$$
 $$$$$$$$
 $$$$$$$$$
 $$$$$$$$$$
+$ENV{'HOME'}
+$HOME
 $_
 $_$_
 $_$__
@@ -1072,6 +1074,7 @@ ${$_}
 (:
 (:;
 (;
+(null)
 )
 ))
 )))
@@ -1505,6 +1508,7 @@ K
 L
 M
 N
+NIL
 NULL
 NaN
 Nil
@@ -1978,6 +1982,7 @@ f
 false
 g
 h
+hasOwnProperty
 i
 inf
 j
@@ -1996,6 +2001,8 @@ s
 t
 true
 u
+undef
+undefined
 v
 w
 x
