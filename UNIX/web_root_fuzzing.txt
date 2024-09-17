@@ -9,3 +9,4 @@
 /srv/www/sites/
 /home/www/
 /home/httpd/
+/app/
